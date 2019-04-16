@@ -1,0 +1,38 @@
+body{
+    background-color: #05465A;
+    margin-top: 25px;
+}
+
+body a:hover{
+    background-color: white;
+    color: #05465A;
+}
+@media only screen and (max-width: 500px) {
+body a:first-child{
+  margin-top:50%;
+}
+}
+body a:first-child{
+  margin-top:20%;
+}
+body a{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #05465A;
+    text-align: center;
+    color: white;
+    height: 150px;
+    text-decoration: none;
+    width: 300px;
+    vertical-align:middle;
+    line-height: 150px;
+    font-family: 'El Messiri', sans-serif;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+
+
+
+

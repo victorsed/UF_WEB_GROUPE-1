@@ -1,0 +1,65 @@
+body {
+    background-color: #05465A;
+}
+main p{
+    text-decoration: underline;
+    text-align: justify;
+    color: #490204;
+    font-size: 1.2em;
+    font-style: oblique;
+    text-indent: 50px;
+    margin: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+#texteapropos{
+  margin: 0 auto;
+  width: 500px
+}
+
+@media only screen and (max-width: 500px) {
+#texteapropos{
+  margin: 0 auto;
+  width: 400px
+}
+}
+@media only screen and (max-width: 400px) {
+#texteapropos{
+  margin: 0 auto;
+  width: 300px
+}
+}
+@media only screen and (max-width: 300px) {
+#texteapropos{
+  margin: 0 auto;
+  width: 200px
+}
+}
+#logo2 {
+  height:100%;
+  height:30px;
+  width:30px;
+}
+
+header nav div.right {
+    position: absolute;
+    height: 40px;
+    top: 10px;
+    margin-left: 95%;
+}
+
+header nav div.right img {
+    height: 75%;
+}
+
+
+header nav div.right .login {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 8px 16px;
+    background-color: #05465A;
+}
+header nav div.right:not( :hover ) .login {
+    display: none;
+}
